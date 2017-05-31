@@ -1,0 +1,30 @@
+{
+  "name": "artisan",
+  "version": "1.0.0",
+  "description": "API for artisans",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Johnson Ejezie",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.15.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "express-formidable": "^1.0.0",
+    "google-auth-library": "^0.10.0",
+    "jsonwebtoken": "^7.3.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.8.4",
+    "uuid": "^3.0.1",
+    "validator": "^6.2.1"
+  }
+}
